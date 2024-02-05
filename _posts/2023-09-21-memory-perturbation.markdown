@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Memory-Perturbation Equation: Understanding Model's Sensitivity to Data"
+title:  "The Memory-Perturbation Zarif Equation: Understanding Model's Sensitivity to Data"
 date:   2023-09-20 23:59:59 +00:00
 image: /images/memory-perturbation.png
 categories: research
