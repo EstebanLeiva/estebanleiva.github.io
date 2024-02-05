@@ -165,7 +165,7 @@
                   {{post.authors}}
 
                   <br>
-                  <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+                  <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} &nbsp;&nbsp; {% if post.accolade %}<strong><FONT COLOR="#ff0000">({{post.accolade}})</FONT></strong>{% endif %}
                   <br>
                   {% if post.venue2 %}<em>{{post.venue2}}</em><br>{% endif %}
                   {% if post.project_page %}
@@ -236,11 +236,11 @@
                       {% endif %}
                       <br>
                       {{post.authors}}
-
+                      
                       <br>
-                      <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+                      <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} &nbsp;&nbsp; {% if post.accolade %}<strong><FONT COLOR="#ff0000">({{post.accolade}})</FONT></strong>{% endif %}
                       <br>
-                      {% if post.venue2 %}<em>{{post.venue2}}</em><br>{% endif %}
+                      {% if post.venue2 %}<em>{{post.venue2}}</em><br>{% endif %} 
                       {% if post.project_page %}
                       <a href="{{post.project_page}}">project page</a> /
                       {% endif %}

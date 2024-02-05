@@ -8,5 +8,6 @@ image: /images/solaris.png
 project_page: https://2021.spaceappschallenge.org/challenges/statements/you-are-my-sunshine/teams/team-solaris/project
 code: https://github.com/zarifikram/SOLARIS
 presentation: https://youtu.be/hYZZq8xAS_o
+accolade: Regional Champion
 categories: project
 ---

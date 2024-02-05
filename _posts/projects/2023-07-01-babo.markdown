@@ -8,7 +8,7 @@ author: "<strong>Zarif Ikram</strong>"
 code: https://github.com/zarifikram/BABO
 slides: docs/babo.pdf
 presentation: https://www.youtube.com/watch?v=kY4_WdqhLQ4&t=323s
-accolade: "2nd Prize"
+accolade: 2nd Prize
 venue: "CSE 316 (July 2022), BUET"
 categories: project
 ---
