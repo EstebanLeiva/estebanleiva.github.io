@@ -6,10 +6,10 @@ image: /images/egfn_architecture.png
 categories: research
 author: "Zarif Ikram"
 authors: "<strong>Zarif Ikram</strong>, Ling Pan, Dianbo Liu"
-venue: "arXiv"
-# code: https://github.com/AugmentedDesignLab/junction-art/tree/GFlow-Nets
+venue: "ICLR GEM Bio workshop"
+code: https://github.com/zarifikram/egfn
 arxiv: https://arxiv.org/abs/2402.02186
-# project_page: https://zarifikram.github.io/gfn-roundabout/
+project_page: https://zarifikram.github.io/EGFN/
 ---
 
  A powerful method for the GFlowNets training using Evolutionary algorithms that enhances its robustness to long trajectory and sparse rewards
