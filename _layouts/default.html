@@ -51,14 +51,14 @@
                   href="https://2023.ieee-iv.org">IV 2023</a> and <a href="https://2023.ieee-itsc.org">ITSC 2023</a>.
               </p>
               <p>
-                My current work focuses on Generative Flow Networks and Antibody discovery. My ongoing undergraduate
+                My current work focuses on Generative Flow Networks and other discrete generative methods. I like agents that
+                generalize well and adapt fast. My ongoing undergraduate
                 thesis, under <a href="https://scholar.google.com/citations?user=9d52x-cAAAAJ&hl=en">Dr. Mohammad Saifur
                   Rahman</a> , focuses on sequential antibody design, exploring better ways to sample antibody sequences
-                in a conditional setting. Besides, my other work explores sampling from complex reward landscape (sparse
-                reward distribution and long trajectory) by combinding gradient based approaches with gradient-free
-                methods at <a href="http://www.cogai4sci.com">CogAI4Sci Lab</a> under the amazing <a
-                  href="https://scholar.google.com/citations?user=kGSzBpMAAAAJ&hl=en">Dianbo Liu</a> and <a
-                  href="https://ling-pan.github.io">Ling Pan</a> (spoiler alert: it works!).
+                in a conditional setting. Besides, my other work explores fast reward distribution adaptation for
+                diverse MDPs in the GFlowNets framework at <a href="http://www.cogai4sci.com">CogAI4Sci Lab</a> under
+                the amazing <a href="https://scholar.google.com/citations?user=kGSzBpMAAAAJ&hl=en">Dianbo Liu</a> and <a
+                  href="https://ling-pan.github.io">Ling Pan</a>.
               </p>
               <p>
                 As a fifth-year Indian classical musician trainee under <a
@@ -165,7 +165,9 @@
                   {{post.authors}}
 
                   <br>
-                  <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} &nbsp;&nbsp; {% if post.accolade %}<strong><FONT COLOR="#ff0000">({{post.accolade}})</FONT></strong>{% endif %}
+                  <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} &nbsp;&nbsp; {% if post.accolade %}<strong>
+                    <FONT COLOR="#ff0000">({{post.accolade}})</FONT>
+                  </strong>{% endif %}
                   <br>
                   {% if post.venue2 %}<em>{{post.venue2}}</em><br>{% endif %}
                   {% if post.project_page %}
@@ -236,11 +238,13 @@
                       {% endif %}
                       <br>
                       {{post.authors}}
-                      
+
                       <br>
-                      <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} &nbsp;&nbsp; {% if post.accolade %}<strong><FONT COLOR="#ff0000">({{post.accolade}})</FONT></strong>{% endif %}
+                      <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} &nbsp;&nbsp; {% if post.accolade %}<strong>
+                        <FONT COLOR="#ff0000">({{post.accolade}})</FONT>
+                      </strong>{% endif %}
                       <br>
-                      {% if post.venue2 %}<em>{{post.venue2}}</em><br>{% endif %} 
+                      {% if post.venue2 %}<em>{{post.venue2}}</em><br>{% endif %}
                       {% if post.project_page %}
                       <a href="{{post.project_page}}">project page</a> /
                       {% endif %}
@@ -291,7 +295,7 @@
                     </tr>
                   </tbody>
                 </table>
-                
+
                 <!-- Music -->
                 <table
                   style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -302,6 +306,18 @@
                         <p>
                           Coming soon
                         </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table
+                  style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                  <tbody>
+                    <tr>
+                      <td style="padding:20px;width:100%;vertical-align:middle">
+                        <a href="https://info.flagcounter.com/em8K"><img
+                            src="https://s11.flagcounter.com/count2/em8K/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
+                            alt="Flag Counter" border="0"></a>
                       </td>
                     </tr>
                   </tbody>
@@ -318,13 +334,13 @@
                         <td style="padding:0px">
                           <br>
                           <p style="text-align:center;font-size:small;">
-                            Adapted from <a style="font-size:small;" href="https://leonidk.com/">Leonid Keselman's
-                              fork</a>
-                            of <a style="font-size:small;" href="https://jonbarron.info">John Barron's website</a>.
+                            <a style="font-size:small;" href="https://jonbarron.info">this guy's website is kinda
+                              cool</a>.
                           </p>
                         </td>
                       </tr>
                     </table>
+
       </td>
     </tr>
   </table>
