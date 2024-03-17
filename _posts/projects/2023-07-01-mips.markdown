@@ -1,6 +1,6 @@
 ---
 title: "4-Bit MIPS Processor"
-date: "2023-03-01"
+date: "2023-01-01"
 image: images/mips.jpg
 authors: "<strong>Zarif Ikram</strong>, Md. Raihan Sobhan, Rayan Islam, Md. Labid Al Nahiyan, Anamul Hoque Emtiaj"
 author: "<strong>Zarif Ikram</strong>"
