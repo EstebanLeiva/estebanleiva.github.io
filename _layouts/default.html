@@ -49,19 +49,22 @@
                 Zarif Ikram (জারিফ ইকরাম)
               </h1>
               <p>
-                I'm an undergraduate senior at <a href="https://cse.buet.ac.bd">CSE, BUET</a>. From 2022 to 2023, I have
+                I'm an undergraduate senior at <a href="https://cse.buet.ac.bd">CSE, BUET</a> and a visiting scholar at
+                <a href="https://medicine.nus.edu.sg">NUS Yong Loo Lin School of Medicine</a> and <a
+                  href="https://ai.nus.edu.sg">NUS AI Institute </a>. From 2022 to 2023, I have
                 done research in collaboration with <a href="https://github.com/AugmentedDesignLab">Augmented Design
                   Lab</a> under <a href="https://en.wikipedia.org/wiki/Jim_Whitehead_(computer_scientist)">Jim
                   Whitehead</a>, publishing in top intelligent vehicles conferences such as <a
                   href="https://2023.ieee-iv.org">IV 2023</a> and <a href="https://2023.ieee-itsc.org">ITSC 2023</a>.
               </p>
               <p>
-                My current work focuses on Generative Flow Networks and other discrete generative methods. I like agents
-                that generalize well and adapt fast. My ongoing undergraduate
-                thesis, under <a href="https://scholar.google.com/citations?user=9d52x-cAAAAJ&hl=en">Dr. Mohammad Saifur
-                  Rahman</a> , focuses on sequential antibody design, exploring better ways to sample antibody sequences
-                in a conditional setting. Besides, my other work explores fast reward distribution adaptation for
-                diverse MDPs in the GFlowNets framework at <a href="http://www.cogai4sci.com">CogAI4Sci Lab</a> under
+                My current research focuses on world models and learning representations for downstream tasks. My
+                ongoing undergraduate thesis, under <a
+                  href="https://scholar.google.com/citations?user=9d52x-cAAAAJ&hl=en">Dr. Mohammad Saifur
+                  Rahman</a> , focuses on biomolecular design, exploring better ways to sample antibody sequences
+                in a conditional setting. Besides, my work at <a href="http://www.cogai4sci.com">CogAI4Sci Lab</a>
+                focues on hierarchical world modelling, causal task understanding, and task specific representation
+                learning under
                 the amazing <a href="https://scholar.google.com/citations?user=kGSzBpMAAAAJ&hl=en">Dianbo Liu</a> and <a
                   href="https://ling-pan.github.io">Ling Pan</a>.
               </p>
@@ -137,8 +140,10 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in discrete generative modeling and the algorithmic improvement of it. Most of my
-                  applied research is about modeling the real world with discrete objects (i.e., biological sequences,
+                  I'm interested in robust and accurate world modelling with generative modeling and self-supervisted
+                  learning. My interest also includes discrete generative modeling techniques such as generative flow
+                  networks and the algorithmic improvement of it. Most of my
+                  applied research is about modeling the real world with discrete objects (i.e., bio-molecules,
                   road objects).
                 </p>
               </td>
@@ -213,7 +218,7 @@
                   <td style="padding:20px;width:100%;vertical-align:middle">
                     <h2>Selected Talks/Lectures</h2>
                     <p>
-                       I love to share my experiences with the audience and learn from them.
+                      I love to share my experiences with the audience and learn from them.
                     </p>
                   </td>
                 </tr>
@@ -284,7 +289,7 @@
                   {% endfor %}
                   {% endfor %}
                 </table>
-                
+
                 <table
                   style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                   <tbody>
@@ -292,7 +297,8 @@
                       <td style="padding:20px;width:100%;vertical-align:middle">
                         <h2>Projects</h2>
                         <p>
-                          These are mostly my side projects, which I did for hackathon or university course -- but mostly
+                          These are mostly my side projects, which I did for hackathon or university course -- but
+                          mostly
                           for fun.
                         </p>
                       </td>
@@ -302,17 +308,18 @@
                 <table
                   style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                   <tbody>
-    
-    
+
+
                     <table
                       style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    
+
                       {% for post in site.posts %}
                       {% for cat in post.categories %}
                       {% if cat == 'project' %}
                       <tr>
                         <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-                          <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+                          <img src="{{post.image}}" alt="project image"
+                            style="width:auto; height:auto; max-width:100%;" />
                         </td>
                         <td style="padding:2.5%;width:75%;vertical-align:middle">
                           {% if post.project_page %}
@@ -322,9 +329,10 @@
                           {% endif %}
                           <br>
                           {{post.authors}}
-    
+
                           <br>
-                          <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} &nbsp;&nbsp; {% if post.accolade %}<strong>
+                          <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} &nbsp;&nbsp; {% if post.accolade
+                          %}<strong>
                             <FONT COLOR="#ff0000">({{post.accolade}})</FONT>
                           </strong>{% endif %}
                           <br>
@@ -365,171 +373,177 @@
                       {% endfor %}
                     </table>
 
-                <!-- Mentoring -->
-                <table
-                  style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                  <tbody>
-                    <tr>
-                      <td style="padding:20px;width:100%;vertical-align:middle">
-                        <h2>Mentoring</h2>
-                        <p>
-                          I am in no way accomplished for mentoring, but I do love to share insights from my experiences
-                          in a way that helps young researchers with limited capacity due to geographical/economic
-                          situation. If you think I can help you in any way in your research, feel free to send an email
-                          about anything -- I reply fast.
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table
-                  style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                  <tbody>
-                    <tr>
-                      <td style="padding:20px;width:100%;vertical-align:middle">
-                        <p>
-                        <div>
-                          <h3>Taorui Huang</h3>, Freshman, Stanford CS <i>(2023)</i>
-                        </div>
-                        <i>PedGrid, ITSC 2023</i></div>
-                        </div>
-                        </p>
+                    <!-- Mentoring -->
+                    <table
+                      style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                      <tbody>
+                        <tr>
+                          <td style="padding:20px;width:100%;vertical-align:middle">
+                            <h2>Mentoring</h2>
+                            <p>
+                              I am in no way accomplished for mentoring, but I do love to share insights from my
+                              experiences
+                              in a way that helps young researchers with limited capacity due to geographical/economic
+                              situation. If you think I can help you in any way in your research, feel free to send an
+                              email
+                              about anything -- I reply fast.
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table
+                      style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                      <tbody>
+                        <tr>
+                          <td style="padding:20px;width:100%;vertical-align:middle">
+                            <p>
+                            <div>
+                              <h3>Taorui Huang</h3>, Freshman, Stanford CS <i>(2023)</i>
+                            </div>
+                            <i>PedGrid, ITSC 2023</i></div>
+                            </div>
+                            </p>
 
-                        <div>
-                          <h3>Abrar Rahman Abir</h3>, 3rd Year, BUET <i>(2024-)</i>
-                        </div>
-                        <i>IRI prediction with ML, AICCC 2024</i>
-                        <div></div>
-                        <i>Dirichlet flow matching for better representation, WIP</i></p>
-                        </div>
+                            <div>
+                              <h3>Abrar Rahman Abir</h3>, 3rd Year, BUET <i>(2024-)</i>
+                            </div>
+                            <i>IRI prediction with ML, AICCC 2024</i>
+                            <div></div>
+                            <i>Dirichlet flow matching for better representation, WIP</i></p>
+                            </div>
 
-                        <div>
-                          UCSC CSE 107 students <i>(2024-)</i></div>
-                        <i>Penny stock prediction with sequential ML, WIP</i></p>
-                        </div>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+                            <div>
+                              UCSC CSE 107 students <i>(2024-)</i></div>
+                            <i>Penny stock prediction with sequential ML, WIP</i></p>
+                            </div>
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
 
-                <!-- Academic Services -->
-                <table
-                  style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                  <tbody>
-                    <tr>
-                      <td style="padding:20px;width:100%;vertical-align:middle">
-                        <h2>Academic Services</h2>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table
-                  style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                  <tbody>
-                    <tr>
-                      <td style="padding:20px;width:100%;vertical-align:middle">
-                        <p>
-                        <div>
-                          Reviewer, <h3>ICLR </h3> <i>(2024)</i></div>
-                        </div>
-                        <div>
-                          Reviewer, <h3>NeurIPS </h3> <i>(2024)</i></div>
-                        </div>
-                        <div>
-                          Reviewer, <h3>ITSC </h3> <i>(2023)</i></div>
-                        </div>
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+                    <!-- Academic Services -->
+                    <table
+                      style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                      <tbody>
+                        <tr>
+                          <td style="padding:20px;width:100%;vertical-align:middle">
+                            <h2>Academic Services</h2>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table
+                      style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                      <tbody>
+                        <tr>
+                          <td style="padding:20px;width:100%;vertical-align:middle">
+                            <p>
+                            <div>
+                              Reviewer, <h3>AISTATS </h3> <i>(2024)</i></div>
+                            </div>
+                            <div>
+                              Reviewer, <h3>ICLR </h3> <i>(2024)</i></div>
+                            </div>
+                            <div>
+                              Reviewer, <h3>NeurIPS </h3> <i>(2024)</i></div>
+                            </div>
+                            <div>
+                              Reviewer, <h3>ITSC </h3> <i>(2023)</i></div>
+                            </div>
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
 
-                <!-- Music -->
-                <table
-                  style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                  <tbody>
-                    <tr>
-                      <td style="padding:20px;width:100%;vertical-align:middle">
-                        <h2>Music</h2>
-                        <p>
-                          My music interest is shaped by music lessons from the age of five till today and mostly
-                          comprises of classical and comtemporary. I listen to <i>everything</i>.
-                        <h4>Selected honors</h4>
-                        <div>
-                          <h3>Lifetime Member Award</h3>, Notre Dame Cultural Club <i>(2020)</i>
-                        </div>
-                        </div>
-                        <div>
-                          <h3>Honorable Mention Award</h3>, Notre Dame College <i>(2019)</i>
-                        </div>
-                        </div>
-                        <div>
-                          <h3>Best Singer Award</h3>, National Board of Education <i>(2016)</i>
-                        </div>
-                        </div>
-                        <div>
-                          <h3>1st Prize</h3>, U-18 Nazrul Sangeet Competition <i>(2010-2016)</i>
-                        </div>
-                        </div>
-                        </p>
-                        </p>
-                        <p>
-                        <h4>Selected Television and Stage Appearances</h4>
-                        <div>
-                          Classical Music Festival, Chhayanaut Auditorium, Dhaka <i>(2022-2024)</i></div>
-                        </div>
-                        <div>
-                          গানের ঝরণা তলায় (Gaan er jhhorna talay), Bengal Foundation <i>(2020)</i></div>
-                        </div>
-                        <div>
-                          নজরুল সঙ্গীত উৎসব, National Museum Auditorium <i>(2019)</i></div>
-                        </div>
-                        <div>
-                          Cultural Ceremony, Pope's visit to Bangladesh, Notre Dame College, Dhaka <i>(2017)</i></div>
-                        </div>
-                        <div>
-                          নজরুল সঙ্গীত উৎসব (Nazrul Sangeet Utshab), Chhayanaut Auditorium, Dhaka <i>(2013-2020)</i>
-                        </div>
-                        </div>
-                        <div>
-                          গানে গানে সকাল শুরু (Gaan e gaan e shokal shuru), Channel I <i>(2015)</i></div>
-                        </div>
-                        </p>
+                    <!-- Music -->
+                    <table
+                      style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                      <tbody>
+                        <tr>
+                          <td style="padding:20px;width:100%;vertical-align:middle">
+                            <h2>Music</h2>
+                            <p>
+                              My music interest is shaped by music lessons from the age of five till today and mostly
+                              comprises of classical and comtemporary. I listen to <i>everything</i>.
+                            <h4>Selected honors</h4>
+                            <div>
+                              <h3>Lifetime Member Award</h3>, Notre Dame Cultural Club <i>(2020)</i>
+                            </div>
+                            </div>
+                            <div>
+                              <h3>Honorable Mention Award</h3>, Notre Dame College <i>(2019)</i>
+                            </div>
+                            </div>
+                            <div>
+                              <h3>Best Singer Award</h3>, National Board of Education <i>(2016)</i>
+                            </div>
+                            </div>
+                            <div>
+                              <h3>1st Prize</h3>, U-18 Nazrul Sangeet Competition <i>(2010-2016)</i>
+                            </div>
+                            </div>
+                            </p>
+                            </p>
+                            <p>
+                            <h4>Selected Television and Stage Appearances</h4>
+                            <div>
+                              Classical Music Festival, Chhayanaut Auditorium, Dhaka <i>(2022-2024)</i></div>
+                            </div>
+                            <div>
+                              গানের ঝরণা তলায় (Gaan er jhhorna talay), Bengal Foundation <i>(2020)</i></div>
+                            </div>
+                            <div>
+                              নজরুল সঙ্গীত উৎসব, National Museum Auditorium <i>(2019)</i></div>
+                            </div>
+                            <div>
+                              Cultural Ceremony, Pope's visit to Bangladesh, Notre Dame College, Dhaka <i>(2017)</i>
+                            </div>
+                            </div>
+                            <div>
+                              নজরুল সঙ্গীত উৎসব (Nazrul Sangeet Utshab), Chhayanaut Auditorium, Dhaka <i>(2013-2020)</i>
+                            </div>
+                            </div>
+                            <div>
+                              গানে গানে সকাল শুরু (Gaan e gaan e shokal shuru), Channel I <i>(2015)</i></div>
+                            </div>
+                            </p>
 
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table
-                  style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                  <tbody>
-                    <tr>
-                      <td style="padding:20px;width:20%;vertical-align:middle">
-                        <script type='text/javascript' id='clustrmaps'
-                          src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=tt&d=-1RQdexm-11ErW2PVUx4O2bPPUf35MlhlSiALjenB18&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <table
-                  style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                  <tbody>
-
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table
+                      style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                      <tbody>
+                        <tr>
+                          <td style="padding:20px;width:20%;vertical-align:middle">
+                            <script type='text/javascript' id='clustrmaps'
+                              src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=tt&d=-1RQdexm-11ErW2PVUx4O2bPPUf35MlhlSiALjenB18&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
 
                     <table
                       style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                      <tr>
-                        <td style="padding:0px">
-                          <br>
-                          <p style="text-align:center;font-size:small;">
-                            <a style="font-size:small;" href="https://jonbarron.info">this guy's website is kinda
-                              cool</a>.
-                          </p>
-                        </td>
-                      </tr>
-                    </table>
+                      <tbody>
+
+
+                        <table
+                          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                          <tr>
+                            <td style="padding:0px">
+                              <br>
+                              <p style="text-align:center;font-size:small;">
+                                <a style="font-size:small;" href="https://jonbarron.info">this guy's website is kinda
+                                  cool</a>.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
 
       </td>
     </tr>
