@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Small features matter: Robust representation for world models"
-date: 2024-10-01 23:59:59 +00:00
+date: 2025-02-01 23:59:59 +00:00
 image: /images/ball_disappear.pdf
 categories: research
 author: "Zarif Ikram"
