@@ -10,6 +10,7 @@ venue: "ICLR 2025 Workshop on World Models: Understanding, Modelling and Scaling
 # code: https://github.com/zarifikram/egfn
 # arxiv: https://arxiv.org/abs/2402.02186
 # project_page: https://openreview.net/forum?id=2gTEW29qsM
+slides: docs/gitstorm.pdf
 paper: https://openreview.net/forum?id=vRdn74Jkqp
 accolade: "Outstanding paper award"
 ---
