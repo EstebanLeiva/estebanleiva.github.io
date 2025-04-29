@@ -11,7 +11,7 @@ venue: "ICLR 2025 Workshop on World Models: Understanding, Modelling and Scaling
 # arxiv: https://arxiv.org/abs/2402.02186
 # project_page: https://openreview.net/forum?id=2gTEW29qsM
 paper: https://openreview.net/forum?id=vRdn74Jkqp
-accolade: "Oral"
+accolade: "Outstanding paper award"
 ---
 
 Incorporating MaskGIT as a dynamics prior to enhance sequence modeling in world models, we address the limitation of transformer-based world models in continuous action environments and the inadequacies of prior methods, like STORM, in capturing effective state representations,  suggesting that Masked Generative Priors could be a powerful inductive bias for world models, supporting broader applicability across diverse RL tasks and environments.
