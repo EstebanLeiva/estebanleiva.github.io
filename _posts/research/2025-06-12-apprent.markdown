@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Apprenticeship learning with prior beliefs using inverse optimization"
+date: 2025-05-27 23:59:59 +00:00
+image: /images/apprenticeshiplearning.png
+categories: research
+author: "Esteban Leiva"
+authors: "Mauricio Junca and <strong>Esteban Leiva</strong>"
+venue: "Arxiv"
+code: https://github.com/EstebanLeiva/apprenticeshiplearning
+arxiv: https://arxiv.org/abs/2505.21639
+---
+ A method for incorporating prior beliefs to apprenticeship learning using inverse optimization.
