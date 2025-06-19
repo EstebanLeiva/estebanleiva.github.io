@@ -9,6 +9,6 @@ authors: "<strong>Esteban Leiva</strong>, Santiago Morales, Daniel Yamín, and A
 venue: "Networks"
 code: https://github.com/EstebanLeiva/PA-Experiments
 paper: 
-accolade: "Runner up, poster competition. OW2024 "
+accolade: "Runner up poster. OW2024 "
 ---
- A method for incorporating prior beliefs to apprenticeship learning using inverse optimization.
+Extension of the pulse algorithm for reliable shortest path problems with correlation.

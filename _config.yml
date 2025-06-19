@@ -4,7 +4,7 @@
 
 # Name of your site (displayed in the header)
 
-name: Zarif Ikram (জারিফ ইকরাম)
+name: Esteban Leiva
 
 # Short bio or description (displayed in the header)
 # description: the profile of an engineer, researcher and software developer
@@ -19,17 +19,17 @@ avatar: images/avater.jpg
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: zzzarif.ikram@gmail.com
+  email: e.leivam@uniandes.edu.co
   facebook:
   flickr:
-  github: zarifikram
+  github: EstebanLeiva
   instagram:
-  linkedin: zikram
+  linkedin: estleiva
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: TheZarifIkram
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: ZarifIkram
+  youtube: 
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
@@ -43,7 +43,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: "https://zarifikram.github.io" # the base hostname & protocol for your site
+url: "https://estebanleiva.github.io" # the base hostname & protocol for your site
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
