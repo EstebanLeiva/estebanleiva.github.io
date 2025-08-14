@@ -3,7 +3,7 @@ layout: post
 title: "pulsekit"
 date: 2025-08-13 23:59:59 +00:00
 image: /images/apprenticeshiplearning.png
-categories: graph
+categories: open_source
 author: "Esteban Leiva"
 authors: "<strong>Esteban Leiva</strong>"
 venue: "PyPi"
