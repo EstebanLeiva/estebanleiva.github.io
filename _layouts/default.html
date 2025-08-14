@@ -151,27 +151,15 @@
     </tr>
   </table>
 
-  <!-- Open Source -->
-  <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;">
-    <tbody>
-      <tr>
-        <td style="padding:20px;width:100%;vertical-align:middle;">
-          <h2>Open Source Code</h2>
-          <p>Some open source projects I have worked on.</p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-  <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;">
+  <table class="section-table">
     <tbody>
       {% for post in site.posts %}
       {% if post.categories contains 'open_source' %}
       <tr>
-        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px;">
-          <img src="{{ post.image }}" alt="project image" style="width:auto;height:auto;max-width:100%;" />
+        <td class="thumb">
+          <img src="{{ post.image }}" alt="project image" />
         </td>
-        <td style="padding:2.5%;width:75%;vertical-align:middle;">
+        <td class="body">
           {% if post.project_page %}
           <a href="{{ post.project_page }}"><span>{{ post.title }}</span></a>
           {% else %}
@@ -181,10 +169,8 @@
           {{ post.authors }}
           <br>
           <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}
-          &nbsp;&nbsp;
-          {% if post.accolade %}
-          <strong><span style="color:#ff0000;">({{ post.accolade }})</span></strong>
-          {% endif %}
+          {% if post.accolade %}&nbsp;&nbsp;<strong><span style="color:#ff0000;">({{ post.accolade }})</span></strong>{%
+          endif %}
           <br>
           {% if post.venue2 %}<em>{{ post.venue2 }}</em><br>{% endif %}
 
@@ -204,6 +190,7 @@
       {% endfor %}
     </tbody>
   </table>
+
 
 
 </body>
