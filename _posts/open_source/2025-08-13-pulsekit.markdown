@@ -8,5 +8,7 @@ author: "Esteban Leiva"
 authors: "<strong>Esteban Leiva</strong>"
 venue: "PyPi"
 code: https://github.com/EstebanLeiva/bezierv
+pypi: https://pypi.org/project/bezierv/
+documentation: https://estebanleiva.github.io/bezierv/
 ---
  A Python package for Bézier distributions.
