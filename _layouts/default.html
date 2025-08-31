@@ -212,6 +212,12 @@
                       {% if post.slides %}
                       <a href="{{post.slides}}">slides</a> /
                       {% endif %}
+                      {% if post.pypi %}
+                      <a href="{{post.pypi}}">PyPI</a> /
+                      {% endif %}
+                      {% if post.documentation %}
+                      <a href="{{post.documentation}}">documentation</a> /
+                      {% endif %}
                       <p></p>
                       {{ post.excerpt }}
                     </td>
