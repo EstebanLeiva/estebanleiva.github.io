@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Python package: pulsekit"
+title: "Python package: bezierv"
 date: 2025-08-13 23:59:59 +00:00
-image: /images/apprenticeshiplearning.png
+image: /images/bezierv.png
 categories: open_source
 author: "Esteban Leiva"
 authors: "<strong>Esteban Leiva</strong>"
 venue: "PyPi"
-code: https://github.com/EstebanLeiva/pulsekit
+code: https://github.com/EstebanLeiva/bezierv
 ---
- A Python package for the Pulse algorithm.
+ A Python package for Bézier distributions.
