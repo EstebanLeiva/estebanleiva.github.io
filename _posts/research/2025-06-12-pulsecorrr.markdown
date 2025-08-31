@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An Exact Method for Reliable Shortest Path Problems with Correlation"
-date: 2025-05-27 23:59:59 +00:00
+date: 2024-11-27 23:59:59 +00:00
 image: /images/pulsecorr.png
 categories: research
 author: "Esteban Leiva"
