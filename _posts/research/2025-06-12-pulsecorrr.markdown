@@ -6,9 +6,9 @@ image: /images/pulsecorr.png
 categories: research
 author: "Esteban Leiva"
 authors: "<strong>Esteban Leiva</strong>, Santiago Morales, Daniel Yamín, and Andrés L. Medaglia"
-venue: "Submitted"
+venue: Networks
 code: https://github.com/EstebanLeiva/PA-Experiments
-paper: 
+paper: https://doi.org/10.1002/net.70026.
 accolade: "Runner up poster. OW2024 "
 ---
 Extension of the pulse algorithm for reliable shortest path problems with correlation.
