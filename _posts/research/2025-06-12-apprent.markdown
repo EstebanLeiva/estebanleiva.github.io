@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Apprenticeship learning with prior beliefs using inverse optimization"
-date: 2025-05-27 23:59:59 +00:00
+date: 2026-02-24 23:59:59 +00:00
 image: /images/apprenticeshiplearning.png
 categories: research
 author: "Esteban Leiva"
 authors: "Mauricio Junca and <strong>Esteban Leiva</strong>"
-venue: "Submitted"
+venue: "Accepted in <i> Machine Learning </i>"
 code: https://github.com/EstebanLeiva/apprenticeshiplearning
 arxiv: https://arxiv.org/abs/2505.21639
 ---

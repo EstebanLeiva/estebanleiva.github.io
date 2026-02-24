@@ -6,7 +6,7 @@ image: /images/pulsecorr.png
 categories: research
 author: "Esteban Leiva"
 authors: "<strong>Esteban Leiva</strong>, Santiago Morales, Daniel Yamín, and Andrés L. Medaglia"
-venue: Networks
+venue: <i> Networks <\i>
 code: https://github.com/EstebanLeiva/PA-Experiments
 paper: https://doi.org/10.1002/net.70026
 accolade: "Runner up poster. OW2024 "
