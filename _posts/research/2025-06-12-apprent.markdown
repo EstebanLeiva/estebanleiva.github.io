@@ -6,7 +6,7 @@ image: /images/apprenticeshiplearning.png
 categories: research
 author: "Esteban Leiva"
 authors: "Mauricio Junca and <strong>Esteban Leiva</strong>"
-venue: "Accepted in <i> Machine Learning </i>"
+venue: "Accepted in Machine Learning"
 code: https://github.com/EstebanLeiva/apprenticeshiplearning
 arxiv: https://arxiv.org/abs/2505.21639
 ---
