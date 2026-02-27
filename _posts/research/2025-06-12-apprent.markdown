@@ -10,6 +10,6 @@ venue: "Machine Learning"
 code: https://github.com/EstebanLeiva/apprenticeshiplearning
 arxiv: https://arxiv.org/abs/2505.21639
 paper: https://urldefense.com/v3/__https://rdcu.be/e5NuL__;!!LIr3w8kk_Xxm!rIMWLuReowaqWVf3bhmwqcWnJPXvT1UpcGpt4irHxszCGqO_FTzFiiBCo_Vs3lvX1Do6v3NRKzo8DVP_jED0nHUqjVVo-W9nvQ$
-project-page: https://estebanleiva.github.io/apprenticeshiplearning/
+project_page: https://estebanleiva.github.io/apprenticeshiplearning/
 ---
  A method for incorporating prior beliefs to apprenticeship learning using inverse optimization.
