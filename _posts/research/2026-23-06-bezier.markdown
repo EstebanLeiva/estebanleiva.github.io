@@ -7,6 +7,6 @@ categories: research
 author: "Esteban Leiva"
 authors: "<strong>Esteban Leiva</strong>, Andrés L. Medaglia, and Luis F. Zuluaga"
 code: https://github.com/EstebanLeiva/bezierv-experiments.git
-arxiv: https://arxiv.org/abs/2505.21639
+arxiv: https://arxiv.org/abs/2606.23841
 ---
 We develop a computational framework for efficiently fitting Bézier distributions to bounded data using both maximum likelihood and minimum-error estimation. By exploiting the geometry of the parameter space and introducing asymptotically lossless convex restrictions, our first-order optimization algorithms achieve orders-of-magnitude speedups over existing derivative-free and nonlinear optimization methods while maintaining comparable accuracy. To support practical adoption, we also introduce bezierv, an open-source Python package for fitting, analyzing, and convolving Bézier distributions.
