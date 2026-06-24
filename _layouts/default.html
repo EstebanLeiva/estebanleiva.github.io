@@ -138,7 +138,14 @@
                   <a href="{{post.slides}}">slides</a> /
                   {% endif %}
                   <p></p>
+                  {% if post.summary %}
+                  <details style="margin-top:4px;">
+                    <summary style="cursor:pointer;color:#555;font-size:0.97em;">{{ post.summary }}</summary>
+                    <p style="margin-top:6px;">{{ post.excerpt }}</p>
+                  </details>
+                  {% else %}
                   {{ post.excerpt }}
+                  {% endif %}
                 </td>
               </tr>
               {% endif %}
