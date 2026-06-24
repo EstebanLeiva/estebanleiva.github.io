@@ -112,7 +112,7 @@
 
                   <br>
                   <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} &nbsp;&nbsp; {% if post.accolade %}<strong>
-                    <FONT COLOR="#ff0000">({{post.accolade}})</FONT>
+                    <FONT COLOR="#ff0000">({% if post.accolade_link %}<a href="{{post.accolade_link}}" target="_blank" style="color:inherit;">{{post.accolade}}</a>{% else %}{{post.accolade}}{% endif %})</FONT>
                   </strong>{% endif %}
                   <br>
                   {% if post.venue2 %}<em>{{post.venue2}}</em><br>{% endif %}
@@ -193,7 +193,7 @@
 
                       <br>
                       <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} &nbsp;&nbsp; {% if post.accolade %}<strong>
-                        <FONT COLOR="#ff0000">({{post.accolade}})</FONT>
+                        <FONT COLOR="#ff0000">({% if post.accolade_link %}<a href="{{post.accolade_link}}" target="_blank" style="color:inherit;">{{post.accolade}}</a>{% else %}{{post.accolade}}{% endif %})</FONT>
                       </strong>{% endif %}
                       <br>
                       {% if post.venue2 %}<em>{{post.venue2}}</em><br>{% endif %}
