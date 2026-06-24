@@ -11,4 +11,4 @@ code: https://github.com/EstebanLeiva/PA-Experiments
 paper: https://doi.org/10.1002/net.70026
 accolade: "Runner up poster. OW2024 "
 ---
-Extension of the pulse algorithm for reliable shortest path problems with correlation.
+We develop a unified and exact algorithmic framework for solving reliable shortest path problems with non-negatively correlated travel times and resource constraints. Building on the pulse algorithm, our approach efficiently solves several reliability-based routing formulations through novel reliability bounds and pruning strategies. Computational experiments on large-scale transportation networks show that the framework significantly outperforms existing methods, achieving up to an order-of-magnitude reduction in solution times.
