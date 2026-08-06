@@ -86,7 +86,7 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I enjoy working on problems that involve optimization (a rather broad umbrella, I’ll admit).
+                  I enjoy minimizing functions.
                 </p>
               </td>
             </tr>
@@ -112,7 +112,8 @@
 
                   <br>
                   <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} &nbsp;&nbsp; {% if post.accolade %}<strong>
-                    <FONT COLOR="#ff0000">({% if post.accolade_link %}<a href="{{post.accolade_link}}" target="_blank" style="color:inherit;">{{post.accolade}}</a>{% else %}{{post.accolade}}{% endif %})</FONT>
+                    <FONT COLOR="#ff0000">({% if post.accolade_link %}<a href="{{post.accolade_link}}" target="_blank"
+                        style="color:inherit;">{{post.accolade}}</a>{% else %}{{post.accolade}}{% endif %})</FONT>
                   </strong>{% endif %}
                   <br>
                   {% if post.venue2 %}<em>{{post.venue2}}</em><br>{% endif %}
@@ -161,7 +162,8 @@
                   <td style="padding:20px;width:100%;vertical-align:middle">
                     <h2>Open source projects</h2>
                     <p>
-                      I have fun packaging code and uploading it to the internet. Here are some of my projects.
+                      I have fun packaging code and uploading it to the internet. Here are some of my open source
+                      projects.
                     </p>
                   </td>
                 </tr>
@@ -193,7 +195,9 @@
 
                       <br>
                       <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} &nbsp;&nbsp; {% if post.accolade %}<strong>
-                        <FONT COLOR="#ff0000">({% if post.accolade_link %}<a href="{{post.accolade_link}}" target="_blank" style="color:inherit;">{{post.accolade}}</a>{% else %}{{post.accolade}}{% endif %})</FONT>
+                        <FONT COLOR="#ff0000">({% if post.accolade_link %}<a href="{{post.accolade_link}}"
+                            target="_blank" style="color:inherit;">{{post.accolade}}</a>{% else %}{{post.accolade}}{%
+                          endif %})</FONT>
                       </strong>{% endif %}
                       <br>
                       {% if post.venue2 %}<em>{{post.venue2}}</em><br>{% endif %}
